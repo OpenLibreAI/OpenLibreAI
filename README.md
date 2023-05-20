@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-<img width="600" alt="screenshot_1" src="https://github.com/OpenLibreAI/OpenLibreAI/assets/420937/c61a2bc4-702d-4861-be6d-f53fe3f6e4ec">
+<img width="800" alt="screenshot" src="https://raw.githubusercontent.com/OpenLibreAI/OpenLibreStudio/develop/screenshots/screenshot_3.png">
 
 
 ## Overview
