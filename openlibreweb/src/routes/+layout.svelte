@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import '../app.postcss';
 
 	// Your selected Skeleton theme:
@@ -12,6 +12,7 @@
 	// Finally, your application's global stylesheet (sometimes labeled 'app.css')
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+    import { invalidateAll } from '$app/navigation';
 </script>
 
 <!-- App Shell -->
@@ -53,6 +54,9 @@
 				</a>
                 <a class="btn btn-sm variant-ghost-surface" href="/login" rel="noreferrer">
                     Login
+				</a>
+                <a class="btn btn-sm variant-ghost-surface" href="/register" rel="noreferrer">
+                    Register
 				</a>
 			</svelte:fragment>
 		</AppBar>

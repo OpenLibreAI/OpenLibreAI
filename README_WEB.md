@@ -1,5 +1,11 @@
 # OpenLibreAI web
 
+## Env Prerequisites
+
+```
+==> node --version
+v16.20.0
+```
 
 ## Steps for scaffolding
 
