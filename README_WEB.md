@@ -50,3 +50,7 @@ To close the dev server, hit Ctrl-C
 
 Stuck? Visit us at https://svelte.dev/chat
 ```
+
+## Install Skeleton
+Follow instructions on  
+https://www.skeleton.dev/docs/get-started
