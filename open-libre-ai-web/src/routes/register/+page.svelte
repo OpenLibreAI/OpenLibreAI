@@ -1,4 +1,8 @@
+<script lang="ts">
+	import type { PageData } from "./$types";
 
+  export let data: PageData
+</script>
 <div class="py-8 sm:py-12">
 	<div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
 	  <div class="relative isolate overflow-hidden bg-slate-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
@@ -8,8 +12,11 @@
               <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">Register </h2>
             </div>
           
+            {#if data.session}
+              <p>Welcome, {data.session.user.email}</p>
+            {:else}
             <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-              <form class="space-y-6" action="#" method="POST">
+              <form class="space-y-6" action="?/register" method="POST">
                 <div>
                   <label for="email" class="block text-sm font-medium leading-6 text-white">Email address</label>
                   <div class="mt-2">
@@ -39,6 +46,9 @@
                 <a href="#" class="font-semibold leading-6 text-slate-400 hover:text-stone-300">Start a 14 day free trial</a>
               </p>
             </div>
+
+            {/if}
+
           </div>
 		<svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2" aria-hidden="true">
 		  <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
