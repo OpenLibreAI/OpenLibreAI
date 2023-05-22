@@ -54,3 +54,14 @@ Stuck? Visit us at https://svelte.dev/chat
 ## Install Skeleton
 Follow instructions on  
 https://www.skeleton.dev/docs/get-started
+
+## Install libraries
+```
+cd openlibreweb
+
+npm install @supabase/supabase-js -D
+
+npm install @supabase/auth-helpers-sveltekit -D
+
+
+```
