@@ -1,9 +1,9 @@
 # OpenLibreAI
 
-## Screenshots
 
-<img width="800" alt="screenshot" src="https://raw.githubusercontent.com/OpenLibreAI/OpenLibreStudio/develop/screenshots/screenshot_3.png">
+## Wishlist Exploration
 
+- Wishlist login screen 
 
 ## Overview
 
@@ -15,19 +15,19 @@ The output of the OpenLibreAI API (which wrap the OpenLibreAI models) are genera
 
 ## Mission
 
-OpenLibreAI is a free and open source platform for AI research and development. It is a community-driven project that aims to provide a platform for AI researchers and developers to collaborate and share their work. 
+- OpenLibreAI is a free and open source platform for AI research and development. It is a community-driven project that aims to provide a platform for AI researchers and developers to collaborate and share their work. 
 
-What the world needs now is an open source AI stack / cloud platform / application platform.
+- What the world needs now is an open source AI stack / cloud platform / application platform.
 
-OpenLibreAI is an open source attempt to collect, deploy, and productionize open source models that are state of the art right now (StabilityAI, etc) as well as the ML models for specific use-cases on HuggingFace. 
+- OpenLibreAI is an open source attempt to collect, deploy, and productionize open source models that are state of the art right now (StabilityAI, etc) as well as the ML models for specific use-cases on HuggingFace. 
 
-OpenLibreAI will deploy them under the open source OpenLibreAI platform.
+- OpenLibreAI will deploy them under the open source OpenLibreAI platform.
 
-OpenLibreAI's models would be trained and fine-tuned for domain-specific use-cases.
+- OpenLibreAI's models would be trained and fine-tuned for domain-specific use-cases.
 
-For example, OpenLibre can use skin cancer data and images to train the OpenLibreAI-Carcinoma model that can be deployed as an API and OpenLibreAI gets to charge for the API calls.
+- For example, OpenLibre can use skin cancer data and images to train the OpenLibreAI-Carcinoma model that can be deployed as an API and OpenLibreAI gets to charge for the API calls.
 
-OpenLibreAI will also have a marketplace for AI models and APIs.
+- OpenLibreAI will also have a marketplace for AI models and APIs.
 
 ## Workflow
 
@@ -59,9 +59,11 @@ OpenLibreAI will have a workflow that is similar to the following:
 ## Vision 
 - OpenLibreAI is first and foremost an open source community that believes in deployment of responsible AI for the collective elevation of humanity
 
+## Roadmap 
+
+- One of the business models for OpenLibreAI is revenue from upsell services sanitization of training data
 
 
-- One of the business models for OpenLibreAI will be to charge for the cleaned training data
 ## OpenLibreAI Collaboration Model and Structure
 
 
@@ -69,7 +71,9 @@ OpenLibreAI is structured as an open source collective and devs are compensated 
 
 
 
+## Screenshots
 
+<img width="800" alt="screenshot" src="https://raw.githubusercontent.com/OpenLibreAI/OpenLibreStudio/develop/screenshots/screenshot_3.png">
 
 
 
