@@ -29,17 +29,17 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer"> Home </a>
-				<a class="btn btn-sm variant-ghost-surface" href="" rel="noreferrer"> Dashboard </a>
-				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer"> Models </a>
-				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer"> Datasets </a>
+				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer"> Dashboard </a>
+				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer"> Models </a>
+				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer"> Datasets </a>
 
-				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer"> Solutions </a>
+				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer"> Solutions </a>
 
-				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer"> Integrations </a>
+				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer"> Integrations </a>
 
-				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer"> Deployments </a>
+				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer"> Deployments </a>
 
-				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer"> API </a>
+				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer"> API </a>
 				{#if data.session}
 					<form action="/logout" method="POST">
 						<button type="submit" class="btn btn-primary">Logout</button>
