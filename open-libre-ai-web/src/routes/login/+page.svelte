@@ -4,7 +4,7 @@
 	  <div class="relative isolate overflow-hidden bg-slate-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
         <div class="flex min-h-full flex-col justify-center px-6 py-6 lg:px-8">
             <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-              <img class="mx-auto h-10 w-auto" src="https://avatars.githubusercontent.com/u/134084984?s=400&u=43f288966b0607fa02e3497ded1a7c3ae58be167&v=4" alt="OpenLibreAI">
+              <img class="mx-auto h-10 w-auto" src="logo.png" alt="OpenLibreAI">
               <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">Sign in to your account</h2>
             </div>
           
