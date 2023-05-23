@@ -6,6 +6,7 @@
 <div class="py-16 sm:py-24">
 	<div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
 	  <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
+		<img class="mx-auto h-10 w-auto my-8" src="logo.png" alt="OpenLibreAI">
 		<h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Open source AI Platform for AI Application Development, AI Research and AI Alignment</h2>
 		<p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">OpenLibreAI is currently in private beta</p>
 		<form class="mx-auto mt-10 flex max-w-md gap-x-4"></form>
