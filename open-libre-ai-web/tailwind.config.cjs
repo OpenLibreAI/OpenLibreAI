@@ -6,7 +6,8 @@ const config = {
     require('path').join(require.resolve(
 			'@skeletonlabs/skeleton'),
 			'../**/*.{html,js,svelte,ts}'
-		)
+		),
+    "./node_modules/flowbite/**/*.js"
   ],
 
   theme: {
@@ -14,7 +15,8 @@ const config = {
   },
 
   plugins: [
-    ...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')()
+    ...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')(),
+    require('flowbite/plugin')
   ]
 };
 
