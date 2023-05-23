@@ -69,5 +69,6 @@ npm install @supabase/supabase-js -D
 
 npm install @supabase/auth-helpers-sveltekit -D
 
-
 ```
+
+## Steps for building 
