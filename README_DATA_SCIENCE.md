@@ -48,6 +48,10 @@ conda create --name env_openlibreai python=3.11
 
 conda activate env_openlibreai
 
+conda install numpy pandas
+
+
+
 conda deactivate
 ```
 
@@ -56,5 +60,10 @@ conda deactivate
 ## Links
 
 https://stackoverflow.com/questions/65483008/venv-vs-anaconda-for-creating-virtual-environments
+
+https://youtu.be/S0RPvghGmlQ
+
+https://youtu.be/pu3IpU937xs
+
 
 https://youtu.be/zulGMYg0v6U
